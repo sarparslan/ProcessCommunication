@@ -7,6 +7,8 @@ This C program demonstrates the use of Unix pipes for inter-process communicatio
 
 The program executes in a Unix environment, where it leverages forked processes and IPC through pipes to accomplish its tasks. Specifically, it reads numbers from a given file, categorizes them based on the number of digits, identifies prime numbers, and calculates the count of prime and non-prime numbers. This method of process communication and data analysis showcases the power and flexibility of Unix pipes and process management.
 
+<img width="1154" alt="Screenshot 2024-04-10 at 12 43 14" src="https://github.com/sarparslan/ProcessCommunication/assets/96438389/44360e02-a0cf-47c4-aa4e-cb48cdc91c80">
+
 ## Features
 
 - Utilizes Unix pipes for inter-process communication between parent and child processes.
@@ -36,11 +38,7 @@ The program reads the input file, processes the numbers, and then prints the res
 
 The input should be a text file with one integer per line. For example:
 
-123
-4567
-89
-1011
-121314
+<img width="476" alt="Screenshot 2024-04-10 at 12 47 02" src="https://github.com/sarparslan/ProcessCommunication/assets/96438389/8c2a79e7-19cb-4fec-8ce7-b2091a82d505">
 
 
 ## Output Format
@@ -50,15 +48,10 @@ The output is displayed on the console and includes:
 The count of numbers categorized by the number of digits.
 The count of prime numbers.
 The count of non-prime numbers.
-Example output for a given input file:
+Example outputs :
 
-Input file: input.txt
-1 digit - 0
-2 digits - 1
-3 digits - 1
-4 digits - 1
-5 digits - 2
-Primes - X
-Nonprimes - Y
+
+<img width="1154" alt="Screenshot 2024-04-10 at 12 44 10" src="https://github.com/sarparslan/ProcessCommunication/assets/96438389/638920cc-1458-4a69-9f39-0f73a6b181b1">
+
 
 
